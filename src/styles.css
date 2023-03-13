@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.css';
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+ 
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    background: rgb(229, 243, 243 );
+    background-size: cover;
+}
+

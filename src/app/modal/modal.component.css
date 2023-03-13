@@ -1,0 +1,50 @@
+
+
+.container{
+    margin: 0;
+    padding: 0;
+    border-radius: 30px;
+    width: 250px;
+    height: 100px;
+    border: 1px solid #000000;
+    background: rgb(182, 215, 242 ); 
+    overflow: hidden;
+    position: relative;
+    right: -515px;
+    top: -135px;
+
+
+}
+
+ div p{
+    font-size: 12px;
+    text-align: left;
+    margin-left: 10px;
+   
+ }
+ 
+h3 button{
+  border-radius: 10px 100px / 120px;
+left: 300px;
+float: right;
+height:35px;
+width: 35px;
+border: none;
+background-color:rgb(3, 63, 113 );
+color: rgb(26, 145, 243);
+
+
+ }
+
+
+div h3{
+    text-align: center;
+    color: white;
+    background-color: rgb(55, 158, 243 );
+ 
+
+  
+  
+  
+
+}
