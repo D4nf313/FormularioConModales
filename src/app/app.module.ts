@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
@@ -10,7 +11,8 @@ import { NgModalComponent } from './ng-modal/ng-modal.component';
 
 @NgModule({
   declarations: [AppComponent, FormularioComponent, ModalComponent, NgModalComponent],
-  imports: [BrowserModule, AppRoutingModule, NgbModule],
+  imports: [BrowserModule, AppRoutingModule, NgbModule ,
+    ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
